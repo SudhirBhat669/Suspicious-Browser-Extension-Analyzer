@@ -6,7 +6,8 @@
 ![Image](https://github.com/user-attachments/assets/1e3d3851-6b0d-4ceb-87c2-627fdffdd122)
 
 ## 🧠 Objective
-To develop a Python-based GUI application that identifies potentially harmful browser extensions by scanning .crx, .xpi, and .zip packages using pattern-matching and visualization techniques. This tool helps improve browser security awareness and provides actionable insights through graphing, Geo-IP visualization, and exportable reports.
+- To develop a Python-based GUI application that identifies potentially harmful browser extensions by scanning .crx, .xpi, and .zip packages using pattern-matching and visualization techniques.
+- This tool helps improve browser security awareness and provides actionable insights through graphing, Geo-IP visualization, and exportable reports.
 
 ## 🎯 Outcome
 - Identify suspicious patterns in browser extension files.
@@ -16,22 +17,22 @@ To develop a Python-based GUI application that identifies potentially harmful br
 - Promote awareness of browser security threats.
 
 ## 🔑 Key Concepts
-Browser extension internals (manifest files, scripts).
-Regular expressions for threat pattern extraction.
-File extraction from ZIP, CRX, XPI.
-Geo-IP Mapping using folium.
-GUI Development with Tkinter.
-Graphing with matplotlib.
-Screenshot capture with PIL.ImageGrab.
-PDF report generation with FPDF.
+- Browser extension internals (manifest files, scripts).
+- Regular expressions for threat pattern extraction.
+- File extraction from ZIP, CRX, XPI.
+- Geo-IP Mapping using folium.
+- GUI Development with Tkinter.
+- Graphing with matplotlib.
+- Screenshot capture with PIL.ImageGrab.
+- PDF report generation with FPDF.
 
 ## ⚙️ How It Was Done
-GUI built using Tkinter with styled Treeview to show scan results.
-zipfile is used to open and extract files inside extensions.
-Suspicious data (IPs, emails, URLs, BTC addresses, etc.) is extracted using regex.
-Extracted IPs/domains are mapped using Folium on an interactive HTML map.
-Graph of findings is plotted with matplotlib.
-Screenshot of GUI and findings are exported to a PDF using FPDF.
+- GUI built using Tkinter with styled Treeview to show scan results.
+- zipfile is used to open and extract files inside extensions.
+- Suspicious data (IPs, emails, URLs, BTC addresses, etc.) is extracted using regex.
+- Extracted IPs/domains are mapped using Folium on an interactive HTML map.
+- Graph of findings is plotted with matplotlib.
+- Screenshot of GUI and findings are exported to a PDF using FPDF.
 
 ## 📥 How Do I Install It?
 1. Clone the repository or download the ZIP.
