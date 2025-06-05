@@ -1,0 +1,1 @@
+# Suspicious-Browser-Extension-Analyzer
