@@ -1,0 +1,5 @@
+matplotlib
+pillow
+fpdf
+folium
+requests
