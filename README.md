@@ -9,11 +9,11 @@
 To develop a Python-based GUI application that identifies potentially harmful browser extensions by scanning .crx, .xpi, and .zip packages using pattern-matching and visualization techniques. This tool helps improve browser security awareness and provides actionable insights through graphing, Geo-IP visualization, and exportable reports.
 
 ## 🎯 Outcome
-Identify suspicious patterns in browser extension files.
-Visualize suspicious data via bar graphs.
-Display extracted IPs and domains on an interactive map.
-Export findings and GUI snapshots to PDF reports.
-Promote awareness of browser security threats.
+- Identify suspicious patterns in browser extension files.
+- Visualize suspicious data via bar graphs.
+- Display extracted IPs and domains on an interactive map.
+- Export findings and GUI snapshots to PDF reports.
+- Promote awareness of browser security threats.
 
 ## 🔑 Key Concepts
 Browser extension internals (manifest files, scripts).
@@ -43,8 +43,7 @@ pip install -r requirements.txt
 ## 🚀 How Do I Use It?
 1. Run the app
 bash
-python extanalysis_gui_geo_pdf.py
-
+python extanalysis_gui.py
 2. Click the "Upload & Scan Extension" button.
 3. Choose a .zip, .crx, or .xpi file.
 4. The GUI will display suspicious findings in a table.
@@ -65,10 +64,10 @@ python extanalysis_gui_geo_pdf.py
 11. Can this be converted to CLI?
 
 ## 📦 Files Created
-assets/extanalysis_graph.png – Graph of patterns found.
-assets/extanalysis_gui_screenshot.png – GUI screenshot.
-assets/extanalysis_report.pdf – PDF report with results and graph.
-geo_map.html – IP/domain location map.
+- assets/extanalysis_graph.png – Graph of patterns found.
+- assets/extanalysis_gui_screenshot.png – GUI screenshot.
+- assets/extanalysis_report.pdf – PDF report with results and graph.
+- geo_map.html – IP/domain location map.
 
 ## ✅ Summary
 ExtAnalysis empowers users to analyze, visualize, and report potentially malicious browser extensions with a few clicks. Ideal for cybersecurity learners, digital forensic analysts, or browser power users.
